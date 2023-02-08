@@ -1,0 +1,18 @@
+spring:
+  main:
+    banner-mode: "off"
+    web-application-type: none
+
+logging:
+  level:
+    nl.altindag.sslcontext: INFO
+
+client:
+  ssl:
+    one-way-authentication-enabled: false
+    two-way-authentication-enabled: true
+    key-store: identity.jks
+    key-password: secret
+    key-store-password: secret
+    trust-store: truststore.jks
+    trust-store-password: secret

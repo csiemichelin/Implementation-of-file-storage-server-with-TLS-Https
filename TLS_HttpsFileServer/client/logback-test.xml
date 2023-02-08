@@ -1,0 +1,19 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger level="DEBUG" name="org.springframework.beans.factory.config"/>
+    <logger level="DEBUG" name="nl.altindag"/>
+    <logger level="OFF" name="org.springframework.test.context.support.DefaultTestContextBootstrapper"/>
+    <logger level="OFF" name="org.springframework.test.context.support.AbstractContextLoader"/>
+    <logger level="OFF" name="org.springframework.http.converter.json.Jackson2ObjectMapperBuilder"/>
+    <logger level="OFF" name="org.apache.cxf.phase.PhaseInterceptorChain"/>
+    <logger level="OFF" name="io.netty.resolver.dns.DnsServerAddressStreamProviders"/>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
