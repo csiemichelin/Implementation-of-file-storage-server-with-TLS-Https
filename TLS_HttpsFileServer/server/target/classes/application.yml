@@ -1,0 +1,18 @@
+spring:
+  banner:
+    location: classpath:banner.txt
+
+logging:
+  level:
+    root: INFO
+
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-store: classpath:identity.jks
+    key-password: secret
+    key-store-password: secret
+    trust-store: classpath:truststore.jks
+    trust-store-password: secret
+    client-auth: need
