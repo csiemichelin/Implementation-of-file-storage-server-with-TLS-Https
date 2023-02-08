@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: nl.altindag.server.aspect.LogCertificateAspectShould
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.244 s - in nl.altindag.server.aspect.LogCertificateAspectShould
