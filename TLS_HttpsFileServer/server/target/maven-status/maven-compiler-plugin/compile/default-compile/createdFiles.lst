@@ -1,6 +1,0 @@
-nl/altindag/server/App.class
-nl/altindag/server/controller/HelloWorldController.class
-nl/altindag/server/aspect/LogClientType.class
-nl/altindag/server/aspect/LogCertificate.class
-nl/altindag/server/aspect/LogClientTypeAspect.class
-nl/altindag/server/aspect/LogCertificateAspect.class
