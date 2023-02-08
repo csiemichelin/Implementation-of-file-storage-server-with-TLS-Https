@@ -6,7 +6,7 @@
 &emsp;&emsp;&emsp;<img src="https://github.com/csiemichelin/Implementation-of-file-storage-server-with-TLS-Https/blob/main/TLS_HttpsFileServer/images/postman1.png?raw=true" width="400" height="300"><img src="https://github.com/csiemichelin/Implementation-of-file-storage-server-with-TLS-Https/blob/main/TLS_HttpsFileServer/images/postman2.png?raw=true" width="400" height="300">     
 **step4:** 開啟postman去模擬client與server建立https連線（透過GET）。        
 &emsp;&emsp;&emsp;<img src="https://github.com/csiemichelin/Implementation-of-file-storage-server-with-TLS-Https/blob/main/TLS_HttpsFileServer/images/knock.png?raw=true" width="1000" height="300">    
-**STEP5:** client向file server upload想要上傳的檔案，檔案會存到 TLS_HttpsFileServer/Files-Upload。    
+**STEP5:** client向file server upload想要上傳的檔案，檔案會存到 TLS_HttpsFileServer/Files-Upload（透過POST）。    
 &emsp;&emsp;&emsp;<img src="https://github.com/csiemichelin/Implementation-of-file-storage-server-with-TLS-Https/blob/main/TLS_HttpsFileServer/images/upload.png?raw=true" width="1000" height="350">    
-**STEP6:** client向file server download想要下載的檔案，檔案為上傳時產生的 downloadUri "/downloadFile/{fileCode}"的文件代碼，檔案會存到 TLS_HttpsFileServer/Files-Download。       
+**STEP6:** client向file server download想要下載的檔案，檔案為上傳時產生的 downloadUri "/downloadFile/{fileCode}"的文件代碼，檔案會存到 TLS_HttpsFileServer/Files-Download（透過GET）。       
 &emsp;&emsp;&emsp;<img src="https://github.com/csiemichelin/Implementation-of-file-storage-server-with-TLS-Https/blob/main/TLS_HttpsFileServer/images/download.png?raw=true" width="1000" height="500">    
