@@ -6,7 +6,7 @@
 3. Eclipse, Intellij IDEA (or any other text editor like VIM)
 4. A terminal
 ### 實驗步驟
-**step1:** 到TLS_HttpsFileServer目錄下mvn install
+**step1:** 到TLS_HttpsFileServer目錄下mvn install   
 **step2:** 如果有更動source code的部份，到TLS_HttpsFileServer目錄下更新license -> mvn license:format。  
 **step3:** 執行（VSCode的Run -> Start Debugging）TLS_HttpsFileServer/server/src/main/java/com/fish/server/App.java 則server啟動。      
 **step4:** 去postman配置client的憑證和鑰匙，檔案在 TLS_HttpsFileServer/client。          
