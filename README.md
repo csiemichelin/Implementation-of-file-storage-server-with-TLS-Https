@@ -24,7 +24,7 @@
 **step3:** 執行（VSCode的Run -> Start Debugging）TLS_HttpsFileServer/server/src/main/java/com/fish/server/App.java 則server啟動。      
 **step4:** 去postman配置client的憑證和鑰匙，檔案在 TLS_HttpsFileServer/client。          
 &emsp;&emsp;&emsp;<img src="https://github.com/csiemichelin/Implementation-of-file-storage-server-with-TLS-Https/blob/main/TLS_HttpsFileServer/images/postman1.png?raw=true" width="400" height="300">  
-
+&emsp;&emsp;&emsp;port:8443的那個
 &emsp;&emsp;&emsp;<img src="https://github.com/csiemichelin/Implementation-of-file-storage-server-with-TLS-Https/blob/main/TLS_HttpsFileServer/images/postman2.png?raw=true" width="400" height="300">     
 **step5:** 開啟postman去模擬client與server建立https連線（透過GET）。        
 &emsp;&emsp;&emsp;<img src="https://github.com/csiemichelin/Implementation-of-file-storage-server-with-TLS-Https/blob/main/TLS_HttpsFileServer/images/knock.png?raw=true" width="1000" height="300">    
