@@ -13,6 +13,11 @@
 ### OpenSSL建立私鑰和憑證   
 <https://blog.ladsai.com/ubuntu-%E4%BD%BF%E7%94%A8-openssl-%E7%94%A2%E7%94%9F%E6%86%91%E8%AD%89.html/>   
 <https://gist.github.com/Hakky54/b30418b25215ad7d18f978bc0b448d81/>
+### Keytool建立keystore和trustore
+<https://gist.github.com/Hakky54/7a2f0fcbcf5fdf4674d48f1a0b31c862/>
+### server和client配置  
+1. server在applicatio.yml上設置要用的keystore和trustore文件。    
+2. client因為使用的是postman所以將私鑰和憑證分開存成pem檔，並在設定中導入。    
 ### 實驗步驟
 **step1:** 到TLS_HttpsFileServer目錄下mvn install   
 **step2:** 如果有更動source code的部份，到TLS_HttpsFileServer目錄下更新license -> mvn license:format。  
