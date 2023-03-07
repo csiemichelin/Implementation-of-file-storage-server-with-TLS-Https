@@ -13,6 +13,7 @@
 ### OpenSSL建立私鑰和憑證   
 1. <https://blog.ladsai.com/ubuntu-%E4%BD%BF%E7%94%A8-openssl-%E7%94%A2%E7%94%9F%E6%86%91%E8%AD%89.html/>   
 2. <https://gist.github.com/Hakky54/b30418b25215ad7d18f978bc0b448d81/>
+3. 流程: <https://raix852.github.io/2016/06/20/use-openssl-generate-certificate/>
 ### Keytool建立keystore和trustore
 <https://gist.github.com/Hakky54/7a2f0fcbcf5fdf4674d48f1a0b31c862/>
 ### server和client配置  
